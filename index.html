@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario de Opción Múltiple</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cuestionario Modulo 3 </h1>
+    <form id="quizForm">
+        <div class="question">
+            <p>1. ¿Qué consumo registra un medidor al que está conectado un artefacto durante un tiempo de 4 horas y tiene los siguientes datos i=3A, u=220V cos=0.7?</p>
+            <label><input type="radio" name="q1" value="a"> a) U.I.COS.T = 1848WH (a)</label><br>
+            <label><input type="radio" name="q1" value="b"> b) 1120WH (b)</label><br>
+            <label><input type="radio" name="q1" value="c"> c) 376WH (c)</label><br>
+            <label><input type="radio" name="q1" value="d"> d) 924WH (d)</label><br>
+        </div>
+        <!-- Repite el bloque anterior para las 13 preguntas restantes -->
+        <div class="question">
+            <p>2. En un cable preensamblado, ¿cuál es el conductor diseñado para resistir los esfuerzos mecánicos? ¿Por qué?</p>
+            <label><input type="radio" name="q2" value="a"> a) El conductor es el neutro que permite soportar los esfuerzos mecánicos (a)</label><br>
+            <label><input type="radio" name="q2" value="b"> b) El conductor es el fase que permite soportar los esfuerzos mecánicos (b)</label><br>
+            <label><input type="radio" name="q2" value="c"> c) El conductor de tierra que permite soportar los esfuerzos mecánicos (c)</label><br>
+            <label><input type="radio" name="q2" value="d"> d) Ninguno de los conductores está diseñado para resistir los esfuerzos mecánicos (d)</label><br>
+        </div>
+        
+        <div class="question">
+            <p>3. Marque las afirmaciones correctas acerca del medidor de energía:</p>
+            <label><input type="checkbox" name="q3" value="a"> a) La bobina voltimétrica se conecta entre la fase y el neutro de la línea de entrada (a)</label><br>
+            <label><input type="checkbox" name="q3" value="b"> b) Las dos bobinas se conectan en serie entre sí y a su vez en paralelo con la carga (b)</label><br>
+            <label><input type="checkbox" name="q3" value="c"> c) La bobina amperométrica tiene pocas vueltas de alambre grueso (c)</label><br>
+            <label><input type="checkbox" name="q3" value="d"> d) El disco gira a una velocidad que es directamente proporcional a la carga (d)</label><br>
+            <label><input type="checkbox" name="q3" value="e"> e) Es suficiente que solo una bobina esté conectada para que el medidor funcione (e)</label><br>
+            <label><input type="checkbox" name="q3" value="f"> f) La constante del medidor indica la cantidad de vueltas que debe dar el disco para que el odómetro registre 1 [kWh] (f)</label><br>
+            <label><input type="checkbox" name="q3" value="g"> g) La bobina multimétrica tiene baja impedancia (g)</label><br>
+            <p class="warning" id="q3Warning"></p> 
+        </div>
+        
+        <div class="question">
+            <p>4. En un conductor AL/AC 95/15 ¿qué significa AL/AC?</p>
+            <label><input type="radio" name="q4" value="a"> a) AL= Acrónimo Loco, AC= Absurdo Completo</label><br>
+            <label><input type="radio" name="q4" value="b"> b) AL= Algodón Liviano, AC= Acetato Celestial</label><br>
+            <label><input type="radio" name="q4" value="c"> c) AL= Aluminio 95mm², AC= Acero 15mm², ambos de sección</label><br>
+            <label><input type="radio" name="q4" value="d"> d) AL= Árbol Largo, AC= Arbusto Corto</label><br>
+        </div>
+        
+        <div class="question">
+            <p>5. Cuales de las siguientes opciones son las funciones que debe cumplir un aislador </p>
+            <input type="checkbox" name="q5" value="a"> a) Permitir a los operarios trabajar de manera segura sobre la línea <br>
+            <input type="checkbox" name="q5" value="b"> b) Aislar de tierra a los conductores de la fase<br>
+            <input type="checkbox" name="q5" value="c"> c) Facilitar el arco eléctrico en caso de descarga atmosférica<br>
+            <input type="checkbox" name="q5" value="d"> d) Apoyo y soporte<br>
+        </div>
+        
+        <div class="question">
+            <p>6. en un línea suspendida por una cadena de aisladores qué características permiten determinar la tensión de servicio para la que fue construida </p>
+            <input type="radio" name="q6" value="a"> a) La cantidad de aisladores, a mayor tensión mayor cantidad de aisladores <br> <!--correcta-->
+            <input type="radio" name="q6" value="b"> b) Aislar de tierra a los conductores de la fase<br>
+            <input type="radio" name="q6" value="c"> c) Facilitar el arco eléctrico en caso de descarga atmosférica<br>
+            <input type="radio" name="q6" value="d"> d) Apoyo y soporte<br>
+        </div>
+        
+        <div class="question">
+            <p>7. ¿Cuál es la longitud mínima de empotramiento de un apoyo simple para una línea de baja tensión (850/400)?</p>
+            <input type="radio" name="q7" value="a"> a) Permitir a los operarios trabajar de manera segura sobre la línea <br>
+            <input type="radio" name="q7" value="b"> b) Aislar de tierra a los conductores de la fase<br>
+            <input type="radio" name="q7" value="c"> c) Facilitar el arco eléctrico en caso de descarga atmosférica<br>
+            <input type="radio" name="q7" value="d"> d) P = H/10 +0,6<br> <!--correcta-->
+        </div>
+        
+        <div class="question">
+            <p>8. En una red de baja tensión, ¿dónde debe estar ubicado el seccionador del conductor de neutro?</p>
+            <input type="checkbox" name="q8" value="a"> a) Es indistinto <br> 
+            <input type="checkbox" name="q8" value="b"> b) Próximo a la Z<br>
+            <input type="checkbox" name="q8" value="c"> c) En la cometida del usuario <br>
+            <input type="checkbox" name="q8" value="d"> d) No debe existir seccionador en la línea de neutro <br>
+        </div>
+        
+        <div class="question">
+            <p>9. ¿Qué diferencias existen entre un seccionador y un interruptor?</p>
+            <input type="radio" name="q9" value="a"> a) Osmio<br>
+            <input type="radio" name="q9" value="b"> b) El seccionador no se puede maniobrar con carga y tiene corte visible, mientras que el interruptor se puede maniobrar con carga y no posee corte visible <br> <!--correcta-->
+            <input type="radio" name="q9" value="c"> c) AL= ALUMINIO 95MM2 AC= ACERO 15MM2 ambos de sección<br>
+            <input type="radio" name="q9" value="d"> d) Oro<br>
+        </div>
+        
+        <div class="question">
+            <p>10. Explique el principio del funcionamiento de un reconectador</p>
+            <input type="radio" name="q10" value="a"> a) Cuando detecta la falla abre, respeta unos segundos y vuelve a cerrar  <br><!--correcta-->
+            <input type="radio" name="q10" value="b"> b) Una vez activado, genera un campo electromagnético que desactiva automáticamente el circuito eléctrico <br> 
+            <input type="radio" name="q10" value="c"> c) Se enciende automáticamente cuando se detecta una sobrecarga en el sistema <br>
+            <input type="radio" name="q10" value="d"> d) Emita una señal de alerta visual y sonora cuando hay una caída de tensión en la red <br>
+        </div>
+        
+        <div class="question">
+            <p>11. ¿Qué tipo de fusible se utiliza en las líneas aéreas con dispositivos ACR (MN239)?</p>
+            <input type="checkbox" name="q11" value="a"> a) HH <br>
+            <input type="checkbox" name="q11" value="b"> b) TIPO D <br>
+            <input type="checkbox" name="q11" value="c"> c) NH <!--correcta--> <br>
+            <input type="checkbox" name="q11" value="d"> d) AMERICANO <br> 
+        </div>
+        
+        <div class="question">
+            <p>12. ¿Qué significa que un fusible sea limitador de corriente?</p>
+            <input type="checkbox" name="q12" value="a"> a) Limita los valores de corriente de retorno por neutro en un sistema desequilibrado <br>
+            <input type="checkbox" name="q12" value="b"> b) Interrumpe el crecimiento de la corriente antes de que alcance su primer pico natural <!--correcta--> <br>
+            <input type="checkbox" name="q12" value="c"> c) Limita la tensión de cortocircuito en el momento de la falla <br>
+            <input type="checkbox" name="q12" value="d"> d) Redirige la corriente a través de una ruta segura <br> 
+        </div>
+        
+        <div class="question">
+            <p>13. ¿Cuál es el calibre del fusible necesario para una salida de cable preensamblado de un Z que posee un transformador de 630 kVA, con un preensamblado de 3*95+1*50=1*25, una longitud de 400 m y alimenta a 40 usuarios?</p>
+            <input type="radio" name="q13" value="a"> a) El fusible se utiliza en base a la corriente admisible del cable  <!--correcta--> <br>
+            <input type="radio" name="q13" value="b"> b) Un fusible de 250 A <br> 
+            <input type="radio" name="q13" value="c"> c) Un fusible de 500 A <br>
+            <input type="radio" name="q13" value="d"> d) Un fusible de 1000 A <br>
+        </div>
+        
+        <div class="question">
+            <p>14. Justificar el motivo por el cual una cometida aérea monofásica debe colocarse como elemento primario de protección un fusible con calibre de 35A</p>
+            <input type="radio" name="q14" value="a"> a) Porque es necesario limitar la corriente para proteger el sistema eléctrico <!--correcta--> <br>
+            <input type="radio" name="q14" value="b"> b) Para cuidar el cable de bajada y el medidor <br> 
+            <input type="radio" name="q14" value="c"> c) Para garantizar el suministro de energía ininterrumpido <br>
+            <input type="radio" name="q14" value="d"> d) Para facilitar el reemplazo del fusible en caso de fallo <br>
+        </div>
+        <div class="boton">
+            <button type="button" onclick="submitQuiz()">Finalizar</button>
+        </div>
+        
+    </form>
+
+    <!-- Modal -->
+    <div id="resultModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="results"></div>
+            <div class="botonRecarga">
+                <button type="button" onclick="reloadPageAndCloseModal()">Volver a hacerlo</button>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
