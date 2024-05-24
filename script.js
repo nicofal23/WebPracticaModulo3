@@ -12,7 +12,7 @@ const correctAnswers = {
     q11:'c',
     q12:'b',
     q13:'a',
-    q14:'a',
+    q14:'b',
 };
 function reloadPageAndCloseModal() {
     closeModal(); // Cierra el modal
